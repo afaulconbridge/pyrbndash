@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+import dash_core_components as dcc
+import dash_html_components as html
+import dash_cytoscape as cyto
+from dash.dependencies import Input, Output, State
+
+import random
+import itertools
+
+from pyrbn import RBN
+
+from app import app
+
+layout = html.Div(
+    children=[
+        html.H1("Title"),
+        html.Div("description"),
+    ]
+)
