@@ -3,7 +3,7 @@ PyRBN Dash
 
 Web dashboard about Random Boolean Networks
 
-Uses PyRBN[https://github.com/afaulconbridge/pyrbn]
+Uses [PyRBN](https://github.com/afaulconbridge/pyrbn)
 
 Start with:
 
