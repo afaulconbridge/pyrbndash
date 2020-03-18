@@ -12,7 +12,7 @@ python index.py
 ```
 
 
-
+Requires python 3.8+
 
 
 development
