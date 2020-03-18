@@ -2,7 +2,7 @@
 import dash_core_components as dcc
 import dash_html_components as html
 from app import app
-from apps import index, rbn_single
+from apps import index, rbn_multi, rbn_single
 from dash.dependencies import Input, Output
 
 # shared layout for all child apps
@@ -20,6 +20,8 @@ def display_page(pathname):
         return index.layout
     elif pathname == "/rbn-single":
         return rbn_single.layout
+    elif pathname == "/rbn-multi":
+        return rbn_multi.layout
     else:
         return "404"
 
